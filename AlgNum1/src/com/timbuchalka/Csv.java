@@ -3,7 +3,7 @@ package com.timbuchalka;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-
+//--------------------ZROBIONE Z POMOCĄ KOLEGI ---------------------------
 public class Csv {
     public static void saveToFile(List<List<String>> rows, String fileName) throws IOException {
         FileWriter csvWriter = new FileWriter(fileName);

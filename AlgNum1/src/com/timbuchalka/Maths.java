@@ -15,7 +15,7 @@ public class Maths {
         return wyn;
     }
 
-    //Tworzenie tablicy ze wzoru
+    //Tworzenie tablicy ze wzoru, wzór wzięty z wikipedii
     public static double[] createT(int n, double x) {
         double[] tab = new double[n];
         for (int i = 1; i <= n; i++) {
@@ -78,6 +78,7 @@ public class Maths {
         return sum;
     }
 
+    //----------------ZROBIONE PRZY POMOCY KOLEGI---------------------------
     //generowanie listy za pomoca wzoru
     public static void generateListT(List<List<String>> list, int n, double x, String fileName) throws IOException {
         double avgError = 0;
@@ -196,5 +197,5 @@ public class Maths {
         Csv.saveToFile(list, fileName);
         list.clear();
     }
-
+//----------KONIEC POMOCY KOLEGI---------------------------
 }
